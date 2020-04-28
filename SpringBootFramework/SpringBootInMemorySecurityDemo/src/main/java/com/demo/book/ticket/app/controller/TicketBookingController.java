@@ -1,0 +1,47 @@
+package com.demo.book.ticket.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.demo.book.ticket.app.entities.Ticket;
+import com.demo.book.ticket.app.service.TicketBookingService;
+
+@RestController
+@RequestMapping(value="/api")
+public class TicketBookingController {
+
+	@Autowired
+	private TicketBookingService ticketBookingService;
+	
+	@PostMapping(value="/create")
+	public Ticket createTicket(@RequestBody Ticket ticket){
+		return ticketBookingService.createTicket(ticket);
+	}
+	
+	@GetMapping(value="/tickets/ticket/{ticketId}")
+	//@RequestMapping(value="/ticket/{ticketId}")
+	public Ticket getTicketById(@PathVariable("ticketId")Integer ticketId){
+		return ticketBookingService.getTicketById(ticketId);
+	}
+	@GetMapping(value="/tickets/ticket/alltickets")
+	public Iterable<Ticket> getAllBookedTickets(){
+		return ticketBookingService.getAllBookedTickets();
+	}
+	
+	@DeleteMapping(value="/tickets/ticket/{ticketId}")
+	public void deleteTicket(@PathVariable("ticketId")Integer ticketId){
+		ticketBookingService.deleteTicket(ticketId);
+	}
+	
+	@PutMapping(value="/tickets/ticket/{ticketId}/{newEmail:.+}")	//.+ avoid truncate of mail id like .com, .in etc
+	public Ticket updateTicket(@PathVariable("ticketId")Integer ticketId,@PathVariable("newEmail")String newEmail){
+		return ticketBookingService.updateTicket(ticketId,newEmail);
+	}
+}

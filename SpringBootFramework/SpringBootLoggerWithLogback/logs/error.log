@@ -1,0 +1,781 @@
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Unsupported type public java.util.concurrent.Executor org.apache.coyote.AbstractProtocol.getExecutor()
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute minSpareThreads public int org.apache.coyote.AbstractProtocol.getMinSpareThreads() public void org.apache.coyote.AbstractProtocol.setMinSpareThreads(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLCACertificateFile public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLCACertificateFile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLCACertificateFile(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute aprRequired public boolean org.apache.coyote.AbstractProtocol.isAprRequired() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute compression public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getCompression() public void org.apache.coyote.http11.AbstractHttp11Protocol.setCompression(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLDisableCompression public boolean org.apache.coyote.http11.AbstractHttp11Protocol.getSSLDisableCompression() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLDisableCompression(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute localPort public int org.apache.coyote.AbstractProtocol.getLocalPort() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute ciphers public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getCiphers() public void org.apache.coyote.http11.AbstractHttp11Protocol.setCiphers(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute truststorePass public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getTruststorePass() public void org.apache.coyote.http11.AbstractHttp11Protocol.setTruststorePass(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute truststoreProvider public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getTruststoreProvider() public void org.apache.coyote.http11.AbstractHttp11Protocol.setTruststoreProvider(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute clientCertProvider public java.lang.String org.apache.coyote.AbstractProtocol.getClientCertProvider() public void org.apache.coyote.AbstractProtocol.setClientCertProvider(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute nameIndex public synchronized int org.apache.coyote.AbstractProtocol.getNameIndex() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute soTimeout public int org.apache.coyote.AbstractProtocol.getSoTimeout() public void org.apache.coyote.AbstractProtocol.setSoTimeout(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLCertificateKeyFile public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLCertificateKeyFile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLCertificateKeyFile(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keystoreType public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getKeystoreType() public void org.apache.coyote.http11.AbstractHttp11Protocol.setKeystoreType(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute disableUploadTimeout public boolean org.apache.coyote.http11.AbstractHttp11Protocol.getDisableUploadTimeout() public void org.apache.coyote.http11.AbstractHttp11Protocol.setDisableUploadTimeout(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute serverRemoveAppProvidedValues public boolean org.apache.coyote.http11.AbstractHttp11Protocol.getServerRemoveAppProvidedValues() public void org.apache.coyote.http11.AbstractHttp11Protocol.setServerRemoveAppProvidedValues(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sslImplementationName public java.lang.String org.apache.coyote.http11.AbstractHttp11JsseProtocol.getSslImplementationName() public void org.apache.coyote.http11.AbstractHttp11JsseProtocol.setSslImplementationName(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxExtensionSize public int org.apache.coyote.http11.AbstractHttp11Protocol.getMaxExtensionSize() public void org.apache.coyote.http11.AbstractHttp11Protocol.setMaxExtensionSize(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute restrictedUserAgents public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getRestrictedUserAgents() public void org.apache.coyote.http11.AbstractHttp11Protocol.setRestrictedUserAgents(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxSavePostSize public int org.apache.coyote.http11.AbstractHttp11Protocol.getMaxSavePostSize() public void org.apache.coyote.http11.AbstractHttp11Protocol.setMaxSavePostSize(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute server public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getServer() public void org.apache.coyote.http11.AbstractHttp11Protocol.setServer(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxSwallowSize public int org.apache.coyote.http11.AbstractHttp11Protocol.getMaxSwallowSize() public void org.apache.coyote.http11.AbstractHttp11Protocol.setMaxSwallowSize(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLCACertificatePath public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLCACertificatePath() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLCACertificatePath(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keystorePass public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getKeystorePass() public void org.apache.coyote.http11.AbstractHttp11Protocol.setKeystorePass(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute crlFile public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getCrlFile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setCrlFile(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLHonorCipherOrder public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLHonorCipherOrder() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLHonorCipherOrder(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute pollerThreadCount public int org.apache.coyote.http11.Http11NioProtocol.getPollerThreadCount() public void org.apache.coyote.http11.Http11NioProtocol.setPollerThreadCount(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLCertificateFile public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLCertificateFile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLCertificateFile(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute processorCache public int org.apache.coyote.AbstractProtocol.getProcessorCache() public void org.apache.coyote.AbstractProtocol.setProcessorCache(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute port public int org.apache.coyote.AbstractProtocol.getPort() public void org.apache.coyote.AbstractProtocol.setPort(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute compressableMimeTypes public java.lang.String[] org.apache.coyote.http11.AbstractHttp11Protocol.getCompressableMimeTypes() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute connectionTimeout public int org.apache.coyote.AbstractProtocol.getConnectionTimeout() public void org.apache.coyote.AbstractProtocol.setConnectionTimeout(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxHeaderCount public int org.apache.coyote.AbstractProtocol.getMaxHeaderCount() public void org.apache.coyote.AbstractProtocol.setMaxHeaderCount(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute threadPriority public int org.apache.coyote.AbstractProtocol.getThreadPriority() public void org.apache.coyote.AbstractProtocol.setThreadPriority(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute objectName public javax.management.ObjectName org.apache.coyote.AbstractProtocol.getObjectName() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute compressibleMimeType public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getCompressibleMimeType() public void org.apache.coyote.http11.AbstractHttp11Protocol.setCompressibleMimeType(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute pollerThreadPriority public int org.apache.coyote.http11.Http11NioProtocol.getPollerThreadPriority() public void org.apache.coyote.http11.Http11NioProtocol.setPollerThreadPriority(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLVerifyDepth public int org.apache.coyote.http11.AbstractHttp11Protocol.getSSLVerifyDepth() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLVerifyDepth(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute tcpNoDelay public boolean org.apache.coyote.AbstractProtocol.getTcpNoDelay() public void org.apache.coyote.AbstractProtocol.setTcpNoDelay(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute trustMaxCertLength public int org.apache.coyote.http11.AbstractHttp11Protocol.getTrustMaxCertLength() public void org.apache.coyote.http11.AbstractHttp11Protocol.setTrustMaxCertLength(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute acceptorThreadPriority public int org.apache.coyote.AbstractProtocol.getAcceptorThreadPriority() public void org.apache.coyote.AbstractProtocol.setAcceptorThreadPriority(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sslProtocol public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSslProtocol() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSslProtocol(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sessionCacheSize public int org.apache.coyote.http11.AbstractHttp11Protocol.getSessionCacheSize() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSessionCacheSize(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute soLinger public int org.apache.coyote.AbstractProtocol.getSoLinger() public void org.apache.coyote.AbstractProtocol.setSoLinger(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sendfileSupported public boolean org.apache.coyote.AbstractProtocol.isSendfileSupported() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute useServerCipherSuitesOrder public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getUseServerCipherSuitesOrder() public void org.apache.coyote.http11.AbstractHttp11Protocol.setUseServerCipherSuitesOrder(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sessionTimeout public int org.apache.coyote.http11.AbstractHttp11Protocol.getSessionTimeout() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSessionTimeout(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute defaultSSLHostConfigName public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getDefaultSSLHostConfigName() public void org.apache.coyote.http11.AbstractHttp11Protocol.setDefaultSSLHostConfigName(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLProtocol public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLProtocol() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLProtocol(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute compressableMimeType public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getCompressableMimeType() public void org.apache.coyote.http11.AbstractHttp11Protocol.setCompressableMimeType(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute name public java.lang.String org.apache.coyote.AbstractProtocol.getName() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute compressibleMimeTypes public java.lang.String[] org.apache.coyote.http11.AbstractHttp11Protocol.getCompressibleMimeTypes() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLVerifyClient public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLVerifyClient() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLVerifyClient(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute useSendfile public boolean org.apache.coyote.http11.AbstractHttp11Protocol.getUseSendfile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setUseSendfile(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keyPass public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getKeyPass() public void org.apache.coyote.http11.AbstractHttp11Protocol.setKeyPass(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxThreads public int org.apache.coyote.AbstractProtocol.getMaxThreads() public void org.apache.coyote.AbstractProtocol.setMaxThreads(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute compressionMinSize public int org.apache.coyote.http11.AbstractHttp11Protocol.getCompressionMinSize() public void org.apache.coyote.http11.AbstractHttp11Protocol.setCompressionMinSize(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keyAlias public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getKeyAlias() public void org.apache.coyote.http11.AbstractHttp11Protocol.setKeyAlias(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sslEnabledProtocols public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSslEnabledProtocols() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSslEnabledProtocols(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute noCompressionUserAgents public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getNoCompressionUserAgents() public void org.apache.coyote.http11.AbstractHttp11Protocol.setNoCompressionUserAgents(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute selectorTimeout public long org.apache.coyote.http11.Http11NioProtocol.getSelectorTimeout() public void org.apache.coyote.http11.Http11NioProtocol.setSelectorTimeout(long)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute trustManagerClassName public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getTrustManagerClassName() public void org.apache.coyote.http11.AbstractHttp11Protocol.setTrustManagerClassName(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLCARevocationFile public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLCARevocationFile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLCARevocationFile(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLCipherSuite public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLCipherSuite() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLCipherSuite(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute truststoreFile public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getTruststoreFile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setTruststoreFile(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keepAliveTimeout public int org.apache.coyote.AbstractProtocol.getKeepAliveTimeout() public void org.apache.coyote.AbstractProtocol.setKeepAliveTimeout(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute allowedTrailerHeaders public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getAllowedTrailerHeaders() public void org.apache.coyote.http11.AbstractHttp11Protocol.setAllowedTrailerHeaders(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute connectionCount public long org.apache.coyote.AbstractProtocol.getConnectionCount() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute secure public boolean org.apache.coyote.http11.AbstractHttp11Protocol.getSecure() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSecure(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keystoreProvider public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getKeystoreProvider() public void org.apache.coyote.http11.AbstractHttp11Protocol.setKeystoreProvider(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute connectionUploadTimeout public int org.apache.coyote.http11.AbstractHttp11Protocol.getConnectionUploadTimeout() public void org.apache.coyote.http11.AbstractHttp11Protocol.setConnectionUploadTimeout(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sendReasonPhrase public boolean org.apache.coyote.AbstractProtocol.getSendReasonPhrase() public void org.apache.coyote.AbstractProtocol.setSendReasonPhrase(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLPassword public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLPassword() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLPassword(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute truststoreAlgorithm public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getTruststoreAlgorithm() public void org.apache.coyote.http11.AbstractHttp11Protocol.setTruststoreAlgorithm(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute domain public java.lang.String org.apache.coyote.AbstractProtocol.getDomain() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute acceptorThreadCount public int org.apache.coyote.AbstractProtocol.getAcceptorThreadCount() public void org.apache.coyote.AbstractProtocol.setAcceptorThreadCount(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxKeepAliveRequests public int org.apache.coyote.http11.AbstractHttp11Protocol.getMaxKeepAliveRequests() public void org.apache.coyote.http11.AbstractHttp11Protocol.setMaxKeepAliveRequests(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute backlog public int org.apache.coyote.AbstractProtocol.getBacklog() public void org.apache.coyote.AbstractProtocol.setBacklog(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLCertificateChainFile public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLCertificateChainFile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLCertificateChainFile(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sniParseLimit public int org.apache.coyote.http11.AbstractHttp11JsseProtocol.getSniParseLimit() public void org.apache.coyote.http11.AbstractHttp11JsseProtocol.setSniParseLimit(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute clientAuth public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getClientAuth() public void org.apache.coyote.http11.AbstractHttp11Protocol.setClientAuth(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLCARevocationPath public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getSSLCARevocationPath() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLCARevocationPath(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute algorithm public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getAlgorithm() public void org.apache.coyote.http11.AbstractHttp11Protocol.setAlgorithm(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keystoreFile public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getKeystoreFile() public void org.apache.coyote.http11.AbstractHttp11Protocol.setKeystoreFile(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxHttpHeaderSize public int org.apache.coyote.http11.AbstractHttp11Protocol.getMaxHttpHeaderSize() public void org.apache.coyote.http11.AbstractHttp11Protocol.setMaxHttpHeaderSize(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLDisableSessionTickets public boolean org.apache.coyote.http11.AbstractHttp11Protocol.getSSLDisableSessionTickets() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLDisableSessionTickets(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxTrailerSize public int org.apache.coyote.http11.AbstractHttp11Protocol.getMaxTrailerSize() public void org.apache.coyote.http11.AbstractHttp11Protocol.setMaxTrailerSize(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute truststoreType public java.lang.String org.apache.coyote.http11.AbstractHttp11Protocol.getTruststoreType() public void org.apache.coyote.http11.AbstractHttp11Protocol.setTruststoreType(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxConnections public int org.apache.coyote.AbstractProtocol.getMaxConnections() public void org.apache.coyote.AbstractProtocol.setMaxConnections(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLEnabled public boolean org.apache.coyote.http11.AbstractHttp11Protocol.isSSLEnabled() public void org.apache.coyote.http11.AbstractHttp11Protocol.setSSLEnabled(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Setting name: org.apache.coyote.http11.Http11NioProtocol
+2019-09-26 22:07:35 [main] DEBUG o.a.t.util.modeler.BaseModelMBean - preRegister org.apache.coyote.http11.Http11NioProtocol@5af9926a Tomcat:type=ProtocolHandler,port=8080
+2019-09-26 22:07:35 [main] DEBUG o.a.tomcat.util.modeler.Registry - Managed= Tomcat:type=ThreadPool,name="http-nio-8080"
+2019-09-26 22:07:35 [main] DEBUG o.a.tomcat.util.modeler.Registry - Looking for descriptor 
+2019-09-26 22:07:35 [main] DEBUG o.a.tomcat.util.modeler.Registry - Introspecting 
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Unsupported type public org.apache.tomcat.util.net.NioEndpoint$Poller org.apache.tomcat.util.net.NioEndpoint.getPoller0()
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Unsupported type public java.net.InetAddress org.apache.tomcat.util.net.AbstractEndpoint.getAddress()
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Unsupported type public org.apache.tomcat.util.net.AbstractEndpoint$Handler org.apache.tomcat.util.net.AbstractEndpoint.getHandler()
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Unsupported type public void org.apache.tomcat.util.net.AbstractEndpoint.setAddress(java.net.InetAddress) class java.net.InetAddress
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Unsupported type public void org.apache.tomcat.util.net.AbstractEndpoint.setHandler(org.apache.tomcat.util.net.AbstractEndpoint$Handler) interface org.apache.tomcat.util.net.AbstractEndpoint$Handler
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Unsupported type public void org.apache.tomcat.util.net.AbstractEndpoint.setExecutor(java.util.concurrent.Executor) interface java.util.concurrent.Executor
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Unsupported type public java.util.concurrent.Executor org.apache.tomcat.util.net.AbstractEndpoint.getExecutor()
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute currentThreadsBusy public int org.apache.tomcat.util.net.AbstractEndpoint.getCurrentThreadsBusy() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute localPort public final int org.apache.tomcat.util.net.AbstractEndpoint.getLocalPort() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sslImplementationName public java.lang.String org.apache.tomcat.util.net.AbstractJsseEndpoint.getSslImplementationName() public void org.apache.tomcat.util.net.AbstractJsseEndpoint.setSslImplementationName(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute socketProperties public org.apache.tomcat.util.net.SocketProperties org.apache.tomcat.util.net.AbstractEndpoint.getSocketProperties() public void org.apache.tomcat.util.net.NioEndpoint.setSocketProperties(org.apache.tomcat.util.net.SocketProperties)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute pollerThreadPriority public int org.apache.tomcat.util.net.NioEndpoint.getPollerThreadPriority() public void org.apache.tomcat.util.net.NioEndpoint.setPollerThreadPriority(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute pollerThreadCount public int org.apache.tomcat.util.net.NioEndpoint.getPollerThreadCount() public void org.apache.tomcat.util.net.NioEndpoint.setPollerThreadCount(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sniParseLimit public int org.apache.tomcat.util.net.AbstractJsseEndpoint.getSniParseLimit() public void org.apache.tomcat.util.net.AbstractJsseEndpoint.setSniParseLimit(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxKeepAliveRequests public int org.apache.tomcat.util.net.AbstractEndpoint.getMaxKeepAliveRequests() public void org.apache.tomcat.util.net.AbstractEndpoint.setMaxKeepAliveRequests(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute acceptorThreadPriority public int org.apache.tomcat.util.net.AbstractEndpoint.getAcceptorThreadPriority() public void org.apache.tomcat.util.net.AbstractEndpoint.setAcceptorThreadPriority(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute selectorPool public org.apache.tomcat.util.net.NioSelectorPool org.apache.tomcat.util.net.NioEndpoint.getSelectorPool() public void org.apache.tomcat.util.net.NioEndpoint.setSelectorPool(org.apache.tomcat.util.net.NioSelectorPool)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute name public java.lang.String org.apache.tomcat.util.net.AbstractEndpoint.getName() public void org.apache.tomcat.util.net.AbstractEndpoint.setName(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute currentThreadCount public int org.apache.tomcat.util.net.AbstractEndpoint.getCurrentThreadCount() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sSLEnabled public boolean org.apache.tomcat.util.net.AbstractEndpoint.isSSLEnabled() public void org.apache.tomcat.util.net.AbstractEndpoint.setSSLEnabled(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute backlog public int org.apache.tomcat.util.net.AbstractEndpoint.getBacklog() public void org.apache.tomcat.util.net.AbstractEndpoint.setBacklog(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute bindOnInit public boolean org.apache.tomcat.util.net.AbstractEndpoint.getBindOnInit() public void org.apache.tomcat.util.net.AbstractEndpoint.setBindOnInit(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxHeaderCount public int org.apache.tomcat.util.net.AbstractEndpoint.getMaxHeaderCount() public void org.apache.tomcat.util.net.AbstractEndpoint.setMaxHeaderCount(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute sslImplementation public org.apache.tomcat.util.net.SSLImplementation org.apache.tomcat.util.net.AbstractJsseEndpoint.getSslImplementation() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxThreads public int org.apache.tomcat.util.net.AbstractEndpoint.getMaxThreads() public void org.apache.tomcat.util.net.AbstractEndpoint.setMaxThreads(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute selectorTimeout public long org.apache.tomcat.util.net.NioEndpoint.getSelectorTimeout() public void org.apache.tomcat.util.net.NioEndpoint.setSelectorTimeout(long)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute soTimeout public int org.apache.tomcat.util.net.AbstractEndpoint.getSoTimeout() public void org.apache.tomcat.util.net.AbstractEndpoint.setSoTimeout(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute executorTerminationTimeoutMillis public long org.apache.tomcat.util.net.AbstractEndpoint.getExecutorTerminationTimeoutMillis() public void org.apache.tomcat.util.net.AbstractEndpoint.setExecutorTerminationTimeoutMillis(long)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute alpnSupported public boolean org.apache.tomcat.util.net.AbstractJsseEndpoint.isAlpnSupported() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute daemon public boolean org.apache.tomcat.util.net.AbstractEndpoint.getDaemon() public void org.apache.tomcat.util.net.AbstractEndpoint.setDaemon(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute useSendfile public boolean org.apache.tomcat.util.net.AbstractEndpoint.getUseSendfile() public void org.apache.tomcat.util.net.AbstractEndpoint.setUseSendfile(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute readBufSize public int org.apache.tomcat.util.net.NioEndpoint.getReadBufSize() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute running public boolean org.apache.tomcat.util.net.AbstractEndpoint.isRunning() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute threadPriority public int org.apache.tomcat.util.net.AbstractEndpoint.getThreadPriority() public void org.apache.tomcat.util.net.AbstractEndpoint.setThreadPriority(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxConnections public int org.apache.tomcat.util.net.AbstractEndpoint.getMaxConnections() public void org.apache.tomcat.util.net.AbstractEndpoint.setMaxConnections(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute minSpareThreads public int org.apache.tomcat.util.net.AbstractEndpoint.getMinSpareThreads() public void org.apache.tomcat.util.net.AbstractEndpoint.setMinSpareThreads(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute port public int org.apache.tomcat.util.net.AbstractEndpoint.getPort() public void org.apache.tomcat.util.net.AbstractEndpoint.setPort(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute writeBufSize public int org.apache.tomcat.util.net.NioEndpoint.getWriteBufSize() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keepAliveTimeout public int org.apache.tomcat.util.net.AbstractEndpoint.getKeepAliveTimeout() public void org.apache.tomcat.util.net.AbstractEndpoint.setKeepAliveTimeout(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute connectionCount public long org.apache.tomcat.util.net.AbstractEndpoint.getConnectionCount() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute soLinger public int org.apache.tomcat.util.net.AbstractEndpoint.getSoLinger() public void org.apache.tomcat.util.net.AbstractEndpoint.setSoLinger(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute defaultSSLHostConfigName public java.lang.String org.apache.tomcat.util.net.AbstractEndpoint.getDefaultSSLHostConfigName() public void org.apache.tomcat.util.net.AbstractEndpoint.setDefaultSSLHostConfigName(java.lang.String)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute keepAliveCount public int org.apache.tomcat.util.net.NioEndpoint.getKeepAliveCount() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute acceptorThreadCount public int org.apache.tomcat.util.net.AbstractEndpoint.getAcceptorThreadCount() public void org.apache.tomcat.util.net.AbstractEndpoint.setAcceptorThreadCount(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute tcpNoDelay public boolean org.apache.tomcat.util.net.AbstractEndpoint.getTcpNoDelay() public void org.apache.tomcat.util.net.AbstractEndpoint.setTcpNoDelay(boolean)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute deferAccept public boolean org.apache.tomcat.util.net.NioEndpoint.getDeferAccept() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute paused public boolean org.apache.tomcat.util.net.AbstractEndpoint.isPaused() null
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Setting name: org.apache.tomcat.util.net.NioEndpoint
+2019-09-26 22:07:35 [main] DEBUG o.a.t.util.modeler.BaseModelMBean - preRegister org.apache.tomcat.util.net.NioEndpoint@43c67247 Tomcat:type=ThreadPool,name="http-nio-8080"
+2019-09-26 22:07:35 [main] DEBUG o.a.tomcat.util.modeler.Registry - Managed= Tomcat:type=GlobalRequestProcessor,name="http-nio-8080"
+2019-09-26 22:07:35 [main] DEBUG o.a.tomcat.util.modeler.Registry - Looking for descriptor 
+2019-09-26 22:07:35 [main] DEBUG o.a.tomcat.util.modeler.Registry - Introspecting 
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute requestCount public synchronized int org.apache.coyote.RequestGroupInfo.getRequestCount() public synchronized void org.apache.coyote.RequestGroupInfo.setRequestCount(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxTime public synchronized long org.apache.coyote.RequestGroupInfo.getMaxTime() public synchronized void org.apache.coyote.RequestGroupInfo.setMaxTime(long)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute bytesSent public synchronized long org.apache.coyote.RequestGroupInfo.getBytesSent() public synchronized void org.apache.coyote.RequestGroupInfo.setBytesSent(long)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute processingTime public synchronized long org.apache.coyote.RequestGroupInfo.getProcessingTime() public synchronized void org.apache.coyote.RequestGroupInfo.setProcessingTime(long)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute bytesReceived public synchronized long org.apache.coyote.RequestGroupInfo.getBytesReceived() public synchronized void org.apache.coyote.RequestGroupInfo.setBytesReceived(long)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute errorCount public synchronized int org.apache.coyote.RequestGroupInfo.getErrorCount() public synchronized void org.apache.coyote.RequestGroupInfo.setErrorCount(int)
+2019-09-26 22:07:35 [main] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Setting name: org.apache.coyote.RequestGroupInfo
+2019-09-26 22:07:35 [main] DEBUG o.a.t.util.modeler.BaseModelMBean - preRegister org.apache.coyote.RequestGroupInfo@797501a Tomcat:type=GlobalRequestProcessor,name="http-nio-8080"
+2019-09-26 22:07:35 [main] DEBUG o.apache.catalina.util.LifecycleBase - Setting state for [Connector[HTTP/1.1-8080]] to [INITIALIZED]
+2019-09-26 22:07:35 [main] DEBUG o.apache.catalina.util.LifecycleBase - Setting state for [Connector[HTTP/1.1-8080]] to [STARTING_PREP]
+2019-09-26 22:07:35 [main] DEBUG o.apache.catalina.util.LifecycleBase - Setting state for [Connector[HTTP/1.1-8080]] to [STARTING]
+2019-09-26 22:07:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-26 22:07:35 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-09-26 22:07:35 [main] DEBUG o.apache.catalina.util.LifecycleBase - Setting state for [Connector[HTTP/1.1-8080]] to [STARTED]
+2019-09-26 22:07:35 [http-nio-8080-Acceptor-0] DEBUG o.a.tomcat.util.threads.LimitLatch - Counting up[http-nio-8080-Acceptor-0] latch=0
+2019-09-26 22:07:35 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2019-09-26 22:07:35 [main] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [server.ports] PropertySource with highest search precedence
+2019-09-26 22:07:35 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'springApplicationAdminRegistrar'
+2019-09-26 22:07:35 [main] INFO  c.d.app.SpringBootLoggerApplication - Started SpringBootLoggerApplication in 2.542 seconds (JVM running for 4.363)
+2019-09-26 22:07:35 [main] ERROR c.d.app.SpringBootLoggerApplication - Error found
+2019-09-26 22:07:35 [main] WARN  c.d.app.SpringBootLoggerApplication - Warn found
+2019-09-26 22:07:35 [main] INFO  c.d.app.SpringBootLoggerApplication - Info foundkkkkkkkkkkkkkkkkkkkkkkkkkk
+2019-09-26 22:07:39 [http-nio-8080-Acceptor-0] DEBUG o.a.tomcat.util.threads.LimitLatch - Counting up[http-nio-8080-Acceptor-0] latch=1
+2019-09-26 22:07:39 [http-nio-8080-Acceptor-0] DEBUG o.a.tomcat.util.threads.LimitLatch - Counting up[http-nio-8080-Acceptor-0] latch=2
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11NioProtocol - Processing socket [org.apache.tomcat.util.net.NioChannel@39ddad2e:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:53842]] with status [OPEN_READ]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11NioProtocol - Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@39ddad2e:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:53842]]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11NioProtocol - Popped processor [null] from cache
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11NioProtocol - Register Tomcat:type=RequestProcessor,worker="http-nio-8080",name=HttpRequest1
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.tomcat.util.modeler.Registry - Managed= Tomcat:type=RequestProcessor,worker="http-nio-8080",name=HttpRequest1
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.tomcat.util.modeler.Registry - Looking for descriptor 
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.tomcat.util.modeler.Registry - Introspecting 
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute virtualHost public java.lang.String org.apache.coyote.RequestInfo.getVirtualHost() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute bytesSent public long org.apache.coyote.RequestInfo.getBytesSent() public void org.apache.coyote.RequestInfo.setBytesSent(long)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute method public java.lang.String org.apache.coyote.RequestInfo.getMethod() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute remoteAddr public java.lang.String org.apache.coyote.RequestInfo.getRemoteAddr() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute requestBytesSent public long org.apache.coyote.RequestInfo.getRequestBytesSent() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute rpName public javax.management.ObjectName org.apache.coyote.RequestInfo.getRpName() public void org.apache.coyote.RequestInfo.setRpName(javax.management.ObjectName)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute contentLength public int org.apache.coyote.RequestInfo.getContentLength() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute workerThreadName public java.lang.String org.apache.coyote.RequestInfo.getWorkerThreadName() public void org.apache.coyote.RequestInfo.setWorkerThreadName(java.lang.String)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute bytesReceived public long org.apache.coyote.RequestInfo.getBytesReceived() public void org.apache.coyote.RequestInfo.setBytesReceived(long)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute requestProcessingTime public long org.apache.coyote.RequestInfo.getRequestProcessingTime() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute remoteAddrForwarded public java.lang.String org.apache.coyote.RequestInfo.getRemoteAddrForwarded() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute globalProcessor public org.apache.coyote.RequestGroupInfo org.apache.coyote.RequestInfo.getGlobalProcessor() public void org.apache.coyote.RequestInfo.setGlobalProcessor(org.apache.coyote.RequestGroupInfo)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute protocol public java.lang.String org.apache.coyote.RequestInfo.getProtocol() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute currentQueryString public java.lang.String org.apache.coyote.RequestInfo.getCurrentQueryString() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxRequestUri public java.lang.String org.apache.coyote.RequestInfo.getMaxRequestUri() public void org.apache.coyote.RequestInfo.setMaxRequestUri(java.lang.String)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute requestBytesReceived public long org.apache.coyote.RequestInfo.getRequestBytesReceived() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute serverPort public int org.apache.coyote.RequestInfo.getServerPort() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute stage public int org.apache.coyote.RequestInfo.getStage() public void org.apache.coyote.RequestInfo.setStage(int)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute requestCount public int org.apache.coyote.RequestInfo.getRequestCount() public void org.apache.coyote.RequestInfo.setRequestCount(int)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute maxTime public long org.apache.coyote.RequestInfo.getMaxTime() public void org.apache.coyote.RequestInfo.setMaxTime(long)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute currentUri public java.lang.String org.apache.coyote.RequestInfo.getCurrentUri() null
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute processingTime public long org.apache.coyote.RequestInfo.getProcessingTime() public void org.apache.coyote.RequestInfo.setProcessingTime(long)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute lastRequestProcessingTime public long org.apache.coyote.RequestInfo.getLastRequestProcessingTime() public void org.apache.coyote.RequestInfo.setLastRequestProcessingTime(long)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Introspected attribute errorCount public int org.apache.coyote.RequestInfo.getErrorCount() public void org.apache.coyote.RequestInfo.setErrorCount(int)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.u.m.m.MbeansDescriptorsIntrospectionSource - Setting name: org.apache.coyote.RequestInfo
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.util.modeler.BaseModelMBean - preRegister org.apache.coyote.RequestInfo@14e3d57e Tomcat:type=RequestProcessor,worker="http-nio-8080",name=HttpRequest1
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.t.util.net.SocketWrapperBase - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@23177df:org.apache.tomcat.util.net.NioChannel@39ddad2e:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:53842]], Read from buffer: [0]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [GET / HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Sec-Fetch-Site: none
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,fr;q=0.8,hi;q=0.7
+
+]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.apache.tomcat.util.http.Parameters - Set query string encoding to UTF-8
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.a.AuthenticatorBase - Security checking request GET /
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG org.apache.catalina.realm.RealmBase -   No applicable constraints defined
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.a.jaspic.AuthConfigFactoryImpl - Loading persistent provider registrations from [C:\Users\FeaR\AppData\Local\Temp\tomcat.8492462427149943654.8080\conf\jaspic-providers.xml]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.a.AuthenticatorBase -  Not subject to any constraint
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Initializing servlet 'dispatcherServlet'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'multipartResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@12ca271]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(java.lang.ObjectCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolverCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.LocaleResolverCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@73464aff]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(java.lang.ObjectCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.theme.AbstractThemeResolverCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.theme.FixedThemeResolverCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.ThemeResolverCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@29bdf4d5]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'resourceHandlerMapping'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'faviconHandlerMapping'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'welcomePageHandlerMapping'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'errorAttributes'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'handlerExceptionResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(java.lang.ObjectCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.RequestToViewNameTranslatorCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5504dcae]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beanNameViewResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcViewResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultViewResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewResolver'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(java.lang.ObjectCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.support.AbstractFlashMapManagerCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.support.SessionFlashMapManagerCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     findClass(org.springframework.web.servlet.FlashMapManagerCustomizer)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.loader.WebappClassLoaderBase -     --> Returning ClassNotFoundException
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@586fc911]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 69 ms
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Servlet 'dispatcherServlet' configured successfully
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@3428f19c
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.lang.String com.demo.app.SpringBootLoggerApplication.welcome()]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'springBootLoggerApplication'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/] is: -1
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.demo.app.SpringBootLoggerApplication.welcome()]: java.lang.RuntimeException: Opps exception has occured
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolving exception from handler [public java.lang.String com.demo.app.SpringBootLoggerApplication.welcome()]: java.lang.RuntimeException: Opps exception has occured
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolving exception from handler [public java.lang.String com.demo.app.SpringBootLoggerApplication.welcome()]: java.lang.RuntimeException: Opps exception has occured
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Could not complete request
+java.lang.RuntimeException: Opps exception has occured
+	at com.demo.app.SpringBootLoggerApplication.welcome(SpringBootLoggerApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3428f19c
+2019-09-26 22:07:39 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Opps exception has occured] with root cause
+java.lang.RuntimeException: Opps exception has occured
+	at com.demo.app.SpringBootLoggerApplication.welcome(SpringBootLoggerApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.c.C.[Tomcat].[localhost] - Processing ErrorPage[errorCode=0, location=/error]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/error]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /error
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'basicErrorController'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/error] is: -1
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Requested media types are [text/html, text/html;q=0.8] based on Accept header types and producible media types [text/html])
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'error'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'error'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Returning [org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$SpelView@15fb659c] based on requested media type 'text/html'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$SpelView@15fb659c] in DispatcherServlet with name 'dispatcherServlet'
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.c.c.C.[.[.[.[dispatcherServlet] -  Disabling the response for further output
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11Processor - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@23177df:org.apache.tomcat.util.net.NioChannel@39ddad2e:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:53842]], Status in: [OPEN_READ], State out: [CLOSED]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.coyote.http11.Http11NioProtocol - Pushed Processor [org.apache.coyote.http11.Http11Processor@3b94e4a9]
+2019-09-26 22:07:39 [http-nio-8080-exec-1] DEBUG o.a.tomcat.util.threads.LimitLatch - Counting down[http-nio-8080-exec-1] latch=2
+2019-09-26 22:07:56 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11NioProtocol - Processing socket [org.apache.tomcat.util.net.NioChannel@7d728168:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:53843]] with status [OPEN_READ]
+2019-09-26 22:07:56 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11NioProtocol - Found processor [null] for socket [org.apache.tomcat.util.net.NioChannel@7d728168:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:53843]]
+2019-09-26 22:07:56 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11NioProtocol - Popped processor [org.apache.coyote.http11.Http11Processor@3b94e4a9] from cache
+2019-09-26 22:07:56 [http-nio-8080-exec-2] DEBUG o.a.t.util.net.SocketWrapperBase - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@73b570b6:org.apache.tomcat.util.net.NioChannel@7d728168:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:53843]], Read from buffer: [0]
+2019-09-26 22:07:56 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11Processor - Error parsing HTTP request header
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1242)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1182)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:713)
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:362)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-09-26 22:07:56 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11Processor - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@73b570b6:org.apache.tomcat.util.net.NioChannel@7d728168:java.nio.channels.SocketChannel[connected local=/0:0:0:0:0:0:0:1:8080 remote=/0:0:0:0:0:0:0:1:53843]], Status in: [OPEN_READ], State out: [CLOSED]
+2019-09-26 22:07:56 [http-nio-8080-exec-2] DEBUG o.a.coyote.http11.Http11NioProtocol - Pushed Processor [org.apache.coyote.http11.Http11Processor@3b94e4a9]
+2019-09-26 22:07:56 [http-nio-8080-exec-2] DEBUG o.a.tomcat.util.threads.LimitLatch - Counting down[http-nio-8080-exec-2] latch=1
+2019-09-26 22:09:05 [RMI TCP Connection(1)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-127.0.0.1: accepted socket from [127.0.0.1:53851]
+2019-09-26 22:09:05 [RMI TCP Connection(1)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-127.0.0.1: (port 53833) op = 80
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-127.0.0.1: accepted socket from [127.0.0.1:53852]
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-127.0.0.1: (port 53834) op = 80
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "[B", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(1)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-127.0.0.1: (port 53833) op = 82
+2019-09-26 22:09:05 [RMI TCP Connection(1)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-127.0.0.1: (port 53833) op = 84
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-127.0.0.1: (port 53834) op = 80
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-127.0.0.1: (port 53834) op = 80
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "[B", codebase = "", defaultLoader = sun.misc.Launcher$ExtClassLoader@1b955cac
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-127.0.0.1: (port 53834) op = 84
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-127.0.0.1: (port 53834) op = 80
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(2)-127.0.0.1: (port 53834) op = 80
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG sun.rmi.loader - RMI TCP Connection(2)-127.0.0.1: name = "java.rmi.MarshalledObject", codebase = ""
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78047b92: startup date [Thu Sep 26 22:07:32 IST 2019]; root of context hierarchy
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@36bc55de: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,springBootLoggerApplication,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,org.springframework.boot.autoconfigure.AutoConfigurationPackages,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration,standardJacksonObjectMapperBuilderCustomizer,spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration,jacksonObjectMapperBuilder,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration,jacksonObjectMapper,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration,jsonComponentModule,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration,websocketContainerCustomizer,org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat,tomcatEmbeddedServletContainerFactory,org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration,embeddedServletContainerCustomizerBeanPostProcessor,errorPageRegistrarBeanPostProcessor,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration,dispatcherServlet,spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration,dispatcherServletRegistration,org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration,org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration,defaultValidator,methodValidationPostProcessor,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration,error,beanNameViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration,conventionErrorViewResolver,org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration,errorAttributes,basicErrorController,errorPageCustomizer,preserveErrorControllerTargetClassPostProcessor,spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration,requestMappingHandlerAdapter,requestMappingHandlerMapping,mvcValidator,mvcContentNegotiationManager,mvcPathMatcher,mvcUrlPathHelper,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,mvcConversionService,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,mvcViewResolver,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration,faviconHandlerMapping,faviconRequestHandler,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter,defaultViewResolver,viewResolver,welcomePageHandlerMapping,requestContextFilter,org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration,hiddenHttpMethodFilter,httpPutFormContentFilter,org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration,mbeanExporter,objectNamingStrategy,mbeanServer,org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration,springApplicationAdminRegistrar,org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration,stringHttpMessageConverter,spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration,mappingJackson2HttpMessageConverter,org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration,messageConverters,org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration,spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties,org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration,characterEncodingFilter,localeCharsetMappingsCustomizer,org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration,multipartConfigElement,multipartResolver,spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties,org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration,serverProperties,duplicateServerPropertiesDetector,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration,restTemplateBuilder,org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration]; root of factory hierarchy
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'springApplicationAdminRegistrar'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'mbeanExporter'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'mvcResourceUrlProvider': [requestMappingHandlerMapping, resourceHandlerMapping]
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'mvcValidator': [requestMappingHandlerAdapter]
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'requestMappingHandlerAdapter': [mvcUriComponentsContributor]
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'mvcValidator'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'characterEncodingFilter'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'httpPutFormContentFilter'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'hiddenHttpMethodFilter'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'requestContextFilter'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'defaultValidator': [methodValidationPostProcessor]
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'defaultValidator'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2019-09-26 22:09:05 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]
+2019-09-26 22:09:14 [main] ERROR c.d.app.SpringBootLoggerApplication - Error found
+2019-09-26 22:09:27 [http-nio-9090-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Opps exception has occured] with root cause
+java.lang.RuntimeException: Opps exception has occured
+	at com.demo.app.SpringBootLoggerApplication.welcome(SpringBootLoggerApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-09-26 22:09:31 [http-nio-9090-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Opps exception has occured] with root cause
+java.lang.RuntimeException: Opps exception has occured
+	at com.demo.app.SpringBootLoggerApplication.welcome(SpringBootLoggerApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-09-26 22:11:23 [main] ERROR c.d.app.SpringBootLoggerApplication - Error found
+2019-09-26 22:11:31 [http-nio-9090-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Opps exception has occured] with root cause
+java.lang.RuntimeException: Opps exception has occured
+	at com.demo.app.SpringBootLoggerApplication.welcome(SpringBootLoggerApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-09-26 22:16:12 [http-nio-9090-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Opps exception has occured] with root cause
+java.lang.RuntimeException: Opps exception has occured
+	at com.demo.app.SpringBootLoggerApplication.welcome(SpringBootLoggerApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2019-09-26 22:16:26 [http-nio-9090-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Opps exception has occured] with root cause
+java.lang.RuntimeException: Opps exception has occured
+	at com.demo.app.SpringBootLoggerApplication.welcome(SpringBootLoggerApplication.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)

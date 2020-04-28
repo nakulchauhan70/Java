@@ -1,0 +1,114 @@
+1. Regular Expression
+2. Pattern
+3. Matcher
+4. Character Classes
+5. Pre- Defined Character Classes
+6. Quantifiers
+7. Pattern Class Split
+8. String Class Split
+9. String Tokenizer
+
+Application area of RegEx
+To develop :
+1. Validation - Form Submit
+2. Matching appliacation - Ctrl+f(windows), grep(Unix)
+3. compiler
+	Lexical Analysis - Scanning - Tokenization	
+	Syntax Analysis
+	Sementic Analysis
+	ICG
+	Code Iptimization
+	Target code generation
+
+4. Digital Circuits
+5. Communication Protocol - TCP/IP, UDP
+
+
+\\d      Matches only single digit
+\\d+     Matches one or more digits
+\\d{2}   Matches exactly two digits anywhere in the String
+^\\d{2}  Matches exactly two digits at the start of the String only
+\\d{2}$  Matches exactly two digits at the end of the String only
+^\\d{2}$ Matches pattern of String that has two digits between start and end.
+         Since this pattern accepts only 2 digits so, define a pattern with two digits only 
+         eg. It will accept 33, 44, 12 etc but not 23232, 312, 120 etc
+         
+[abc] Finds and accepts either a or b or c
+[^abc] Finds and accepts all except a, b and c
+[a-z] Finds and accepts lowercase alphabets
+[A-Z] Finds and accepts uppercase alphabets
+[a-z A-Z] Finds and accepts any alphabet
+[0-9] Finds and accepts any digit from 0-9
+[a-z A-Z 0-9] Finds and accepts alphanumeric character
+[^a-z A-Z 0-9] Finds and accepts all except alphanumeric character 
+         
+Pre Defined character classes
+\s Accept space character
+\S Accept all except space character
+\d Accept any digit between 0-9
+\D Accept all except digit between 0-9
+\w Accept word character - (alphanumeric character [a-z A-A 0-9])
+\W Accept all except word character - (special character)
+.  Accept any character.
+
+Pattern and Matcher class available in 
+java.util.regex.*; Java version 1.4
+Pattern p = Pattern.compile("^\\d+$");
+
+.compile() is Static factory method - if a static method return returns same class 
+									  from which it is instantiated is called Static factory method.
+								
+Pattern - compiled version of RE
+		  equivalent java object of RE
+		  
+public static Pattern compile(String re)
+
+public Matcher matcher(String target)
+methods of matcher
+1. boolean m.find()
+2. int m.start()
+3. int m.end()
+4. String m.group()
+         
+Quantifiers - to specify no of occurrences of particular String
+a - exactly one a matches
+a+ - atleast one a matches
+a* - any no of a's and 0 occrrsence included
+a? - at most one a matches
+
+In regular expression cursor can move n+1 index //VERY IMPORTANT
+
+
+Pattern class split method
+
+StringTokenizer - Specially designed class for tokenization activity
+present in - java.util
+Default pattern for StringTokenizer is space \\s
+
+Pattern class split, String class split and StringTokenizer	all are same
+
+Backrefrences
+malayalam = ^\\w\\w\\w\\w\\4\\3\\2\\1$
+
+Assert boundary
+\b = \bcat\b
+Three different positions qualify for word boundaries : 
+► Before the first character in the string, if the first character is a word character. 
+► Between two characters in the string, where one is a word character and the other is not a word character. 
+► After the last character in the string, if the last character is a word character.
+
+\\b[AEIOUaeiou][A-Za-z]*\\b - do not include ^ $
+
+
+Branch Reset Groups
+Branch reset group is supported by Perl, PHP, Delphi and R.
+
+Forward reference
+Forward reference is supported by JGsoft, .NET, Java, Perl, PCRE, PHP, Delphi and Ruby regex flavors.
+
+
+Regex to find -- Use \\-
+Below 
+matchPattern("[!@#$%^&*()-+]+", "--");
+will give false even though you are passing string with "--"
+So better use like this matchPattern("[!@#$%^&*()\\-+]+", "--"); or matchPattern("\\W+", password);

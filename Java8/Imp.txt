@@ -1,0 +1,36 @@
+Immediate operations after stream() - count(), distinct(), filter(Predicate), forEach(Consumer), map(Function), limit(int)
+
+map+collect
+map+anyMatch,allMatch, noneMatch
+map+map
+map+maptoint,maptolong
+map+foreach,foreachordered
+flatmap+collect, count, hashcode, close
+
+Here is the list of all Stream terminal operations:
+
+toArray()
+collect()
+count()
+reduce()
+forEach()
+forEachOrdered()
+min()
+max()
+anyMatch()
+allMatch()
+noneMatch()
+findAny()
+findFirst()
+
+
+Here is the list of all Stream intermediate operations:
+
+filter()
+map()
+flatMap()
+distinct()
+sorted()
+peek()
+limit()
+skip()

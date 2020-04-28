@@ -1,0 +1,29 @@
+In Spring, every java object is a bean. Bean is just a Spring's way of calling java object.
+
+3. DispatcherServlet looks for Handler Mappings. 
+     Spring MVC supports three different ways of mapping request URI's to controllers : annotation, name conventions and explicit mappings.
+     Handler Mappings section defined in the application context file, tells DispatcherServlet which strategy to use to find controllers based on the incoming request.
+     More information on&nbsp;Handler Mappings&nbsp;can be found 
+
+
+ModelMap is a Map implementation, which saves you from old request.getAttribute/ request.setAttribute. 
+It provides a way to set/get attributes from/to request or session.
+
+1)spring-servlet.xml
+<mvc:annotation-driven /> says that we can define spring beans dependencies without actually having to specify a bunch of beans in xml or 
+implement an interface or extend a base class or anything.
+For example, just by annotating a class with @Controller (as we did above) , spring will know that the specified class contains methods that will handle HTTP requests, 
+no need to define that as a bean in xml.
+
+<context:component-scan base-package="com.websystique.springmvc" /> tells spring to search project classpath for all classes under the package specified with 
+base-package [com.websystique.springmvc], 
+and look at each class to see if it is annotated with specific Spring annotations [@Controller, @Service, @Repository, @Component, etc..] and 
+if it does then Spring will register the class with the bean factory as if you had typed in the xml configuration files.
+
+Along with that, we have declared a view resolver which will help controller to delegate the response to appropriate view.
+
+Now we need to specify this configuration file in web.xml
+
+
+Dependency Injection (DI) is a software design pattern that implements inversion of control for resolving dependencies. 
+An injection is the passing of a dependency to a dependent object that would use it. DI is a process whereby objects define their dependencies.

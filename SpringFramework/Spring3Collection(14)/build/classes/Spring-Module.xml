@@ -1,0 +1,62 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="customerService" class="com.spring.bean.CustomerService">
+		<property name="lists">
+			<list>
+				<value>1</value>
+				<ref bean="PersonBean" />
+				<bean class="com.spring.bean.PersonBean">
+					<property name="name" value="Nakul" />
+					<property name="add" value="Ulhasnagar" />
+					<property name="age" value="22" />
+				</bean>
+			</list>
+		</property>
+
+		<property name="sets">
+			<set>
+				<value>1</value>
+				<ref bean="PersonBean" />
+				<bean class="com.spring.bean.PersonBean">
+					<property name="name" value="Nakul" />
+					<property name="add" value="Ulhasnagar" />
+					<property name="age" value="22" />
+
+				</bean>
+			</set>
+		</property>
+		<property name="maps">
+			<map>
+				<entry key="1" value="1" />
+				<entry key="2" value-ref="PersonBean" />
+				<entry key="3">
+					<bean class="com.spring.bean.PersonBean">
+						<property name="name" value="Nakul" />
+						<property name="add" value="Ulhasnagar" />
+						<property name="age" value="22" />
+
+					</bean>
+				</entry>
+			</map>
+		</property>
+		<property name="pros">
+			<props>
+				<prop key="admin">admin@nospam.com</prop>
+				<prop key="support">support@nospam.com</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="PersonBean" class="com.spring.bean.PersonBean">
+		<property name="name" value="Nakul" />
+		<property name="add" value="Ulhasnagar" />
+		<property name="age" value="22" />
+	</bean>
+
+</beans>

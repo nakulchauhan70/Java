@@ -1,0 +1,58 @@
+Annotate with @Configuration to tell Spring that this is the core Spring configuration file, 
+and define bean via @Bean.
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+	<bean id="helloBean" class="com.spring.bean.HelloWorldImpl">
+		
+</beans>
+
+OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR 
+
+@Configuration
+public class AppConfig {
+
+	@Bean(name="hellobean")
+	public HelloWorld helloworld() {
+		return new HelloWorldImpl();
+
+	}
+}
+
+<=======================================================================================>
+										Exception
+										
+										
+log4j:WARN No appenders could be found for logger (org.springframework.context.annotation.ClassPathBeanDefinitionScanner).
+log4j:WARN Please initialize the log4j system properly.
+Exception in thread "main" java.lang.IllegalStateException: Cannot load configuration class: com.spring.config.AppConfig
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:231)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:640)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:630)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:405)
+	at org.springframework.context.annotation.AnnotationConfigApplicationContext.<init>(AnnotationConfigApplicationContext.java:65)
+	at com.spring.contoller.App.main(App.java:12)
+Caused by: java.lang.NoClassDefFoundError: org/objectweb/asm/Type
+	at net.sf.cglib.core.TypeUtils.parseType(TypeUtils.java:184)
+	at net.sf.cglib.core.KeyFactory.<clinit>(KeyFactory.java:66)
+	at net.sf.cglib.proxy.Enhancer.<clinit>(Enhancer.java:69)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.newEnhancer(ConfigurationClassEnhancer.java:101)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:89)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:223)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: org.objectweb.asm.Type
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 12 more
+										
+										Solution
+
+use jar http://www.docjar.com/jar_detail/com.springsource.org.objectweb.asm-3.1.0.jar.html

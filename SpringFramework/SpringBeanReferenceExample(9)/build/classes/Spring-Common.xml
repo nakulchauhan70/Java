@@ -1,0 +1,27 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	<import resource="Spring-Output.xml"/>
+
+<!-- 	<bean id="OutputHelperSpring" class="com.spring.controller.OutputHelperSpring">
+		<property name="outputGenerator">
+			<ref local="CsvOutputGenerator"/>
+		</property>
+	</bean> -->
+	
+		<!-- <bean id="CsvOutputGenerator" class="com.spring.controller.CsvOutputGenerator" /> -->
+		
+		<!-- OR -->
+		
+		<!-- Define <bean id="CsvOutputGenerator" class="com.spring.controller.CsvOutputGenerator" /> in  Spring-Output.xml -->
+	
+		<bean id="OutputHelperSpring"
+			class="com.spring.controller.OutputHelperSpring">
+			<property name="outputGenerator">
+				<ref bean="CsvOutputGenerator" />
+			</property>
+		</bean>
+</beans>
+
+<!-- Using 'local' if you are refering to same bean -->

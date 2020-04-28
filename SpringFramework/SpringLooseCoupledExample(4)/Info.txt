@@ -1,0 +1,2 @@
+There are couple of ways to call the IOutputGenerator, 
+and how to use Spring to avoid objects to coupled tightly with each other.

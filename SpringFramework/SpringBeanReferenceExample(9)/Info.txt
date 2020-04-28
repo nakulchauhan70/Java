@@ -1,0 +1,15 @@
+Actually, the ‘ref’ tag can access to a bean either in same or different XML files,
+however, for the project readability, you should use the ‘local’ attribute if you reference to a bean which declared in the same XML file.
+
+IMPORTANT
+<import resource="classpath:Spring-Output.xml"/> Include this 
+OR
+<import resource="Spring-Output.xml"/>
+into Spring-Common.xml
+
+<==================NET HELP==================================>
+Spring-Security.xml file resides in classpath (src/main/resources folder), 
+so in your ApplicationContext.xml, 
+you need to change from 
+<import resource="classpath:/resources/config/spring/beans/Spring-Security.xml"/> to <import resource="classpath:Spring-Security.xml"/>
+

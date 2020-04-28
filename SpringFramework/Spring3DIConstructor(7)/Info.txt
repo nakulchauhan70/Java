@@ -1,0 +1,3 @@
+In Spring 2.5.x, almost the entire Spring modules are grouped into a single spring.jar file.
+Since Spring 3.0, every modules are split into an individual jar file, for example, 
+spring-core, spring-expression, spring-context, spring-aop and etc

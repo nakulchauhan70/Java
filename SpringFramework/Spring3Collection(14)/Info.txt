@@ -1,0 +1,11 @@
+In Spring, bean scope is used to decide which type of bean instance should be return from Spring container back to the caller.
+
+5 types of bean scopes supported :S
+
+1. singleton – Return a single bean instance per Spring IoC container
+2. prototype – Return a new bean instance each time when requested
+3. request – Return a single bean instance per HTTP request. *
+4. session – Return a single bean instance per HTTP session. *
+5. globalSession – Return a single bean instance per global HTTP session. *
+ 
+In most cases, you may only deal with the Spring’s core scope – singleton and prototype, and the default scope is singleton.

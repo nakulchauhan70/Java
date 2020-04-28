@@ -1,0 +1,44 @@
+<!-- Normal Way : Inject value within a ‘value’ tag and enclosed with ‘property’ tag. -->
+
+<!-- <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="helloBean" class="com.spring.bean.HelloWorld">
+		<property name="name">
+			<value>Nakul</value>
+		</property>
+		<property name="id">
+			<value>10</value>
+		</property>
+	</bean>
+</beans>
+ -->
+<!-- Shortcut : Inject value with “value” attribute. -->
+
+<!-- <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="helloBean" class="com.spring.bean.HelloWorld">
+		<property name="name" value="Nakul" />
+		<property name="id" value="10" />
+	</bean>
+	
+</beans>
+ -->
+<!-- "p" Schema : Inject value by using “p” schema as an attributes. -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="helloBean" class="com.spring.bean.HelloWorld" 
+             p:name="Nakul" p:id="10" />
+	
+</beans>
+

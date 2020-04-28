@@ -1,0 +1,31 @@
+<!-- If no bean scope is specified in bean configuration file, default to singleton. -->
+
+<!-- <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+       <bean id="customerService" 
+            class="com.spring.bean.CustomerService" />
+		
+</beans> -->
+
+<!-- Since the bean ‘customerService’ is in singleton scope, 
+the second retrieval by ‘custB’ will display the message set by ‘custA’ also, 
+even it’s retrieve by a new getBean() method. In singleton, only a single instance per Spring IoC container, 
+no matter how many time you retrieve it with getBean(), it will always return the same instance.
+ -->
+ 
+ 
+ <!-- If you want a new ‘customerService’ bean instance, every time you call it, use prototype instead. -->
+ 
+ <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+   <bean id="customerService" class="com.spring.bean.CustomerService" 
+         scope="prototype"/>
+		
+</beans>
+ 

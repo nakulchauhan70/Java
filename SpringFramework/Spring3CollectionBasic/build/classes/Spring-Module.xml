@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<bean id="customerservice" class="com.spring.bean.CustomerService">
+		<property name="lists">
+			<list>
+				<value>MR. ABC</value>
+				<value>MR. DEF</value>
+				<value>MR. GHI</value>
+				<value>MR. JKL</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>

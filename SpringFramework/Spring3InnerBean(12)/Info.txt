@@ -1,0 +1,15 @@
+Load multiple Spring bean configuration files in the code :
+
+ApplicationContext context = 
+    	new ClassPathXmlApplicationContext(new String[] {"Spring-Common.xml",
+              "Spring-Connection.xml","Spring-ModuleA.xml"});
+             
+             
+<==================================================================>
+
+In a large project structure, the Spring’s bean configuration files are located in different
+folders for easy maintainability and modular.
+For example, Spring-Common.xml in common folder, Spring-Connection.xml in connection folder,
+Spring-ModuleA.xml in ModuleA folder…and etc.
+
+

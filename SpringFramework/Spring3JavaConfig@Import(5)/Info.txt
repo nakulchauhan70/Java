@@ -1,0 +1,5 @@
+Load multiple Spring bean configuration files in the code :
+
+ApplicationContext context = 
+    	new ClassPathXmlApplicationContext(new String[] {"Spring-Common.xml",
+              "Spring-Connection.xml","Spring-ModuleA.xml"});

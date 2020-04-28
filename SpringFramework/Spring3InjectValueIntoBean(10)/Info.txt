@@ -1,0 +1,5 @@
+In Spring, there are three ways to inject value into bean properties.
+
+Normal way
+Shortcut
+“p” schema ==> Remember declares the xmlns:p=”http://www.springframework.org/schema/p in the Spring XML bean configuration file.

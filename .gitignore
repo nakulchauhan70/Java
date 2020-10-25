@@ -1,4 +1,6 @@
 .idea/
+*.iml
+*.iws
 
 # .settings
 /Java/SpringFramework/ApplicationContextExample/.settings
@@ -224,51 +226,3 @@
 /Java/SpringFramework/SpringWithJdbcDaoSupportUsingXML/target/
 /Java/SpringFramework/SpringWithJDBCTemplateAnnotation/target/
 /Java/SpringFramework/SpringWithJDBCTemplateInConfig/target/
-
-#index-data-common/log/
-#tri-calculator-api/log/
-#momentum-calculator-api/log/
-#mmdtv-calculator-api/log/
-#idp-publish-calculator-data/log/
-#idp-calculation-bootstrapper/log/
-#price-volatility-calculator-api/log/
-#idp-workflow/log/
-#earning-consensus-calculator-api/log/
-#valuation-ratios-calculator-api/log/
-#
-#index-data-core/target/
-#index-data-common/target/
-#tri-calculator-api/target/
-#momentum-calculator-api/target/
-#mmdtv-calculator-api/target/
-#idp-publish-calculator-data/target/
-#idp-calculation-bootstrapper/target/
-#publish-calculator-data/target/
-#idp-workflow/target/
-#price-volatility-calculator-api/target/
-#earning-consensus-calculator-api/target/
-#valuation-ratios-calculator-api/target/
-#target/
-#
-#
-#*.log
-#/QA/compareResult/
-#[rR]esult/
-#dependency-reduced-pom.xml
-## vim
-#*~
-#
-## binary files should be generated locally
-#*.avro
-#
-## git merge temporary files
-#*.orig
-#
-## cygwin
-#*.stackdump
-#
-## terraform state files (should use remote)
-#*.tfstate
-#*.tfstate.backup
-#.terraform/
-#*.springBeans
